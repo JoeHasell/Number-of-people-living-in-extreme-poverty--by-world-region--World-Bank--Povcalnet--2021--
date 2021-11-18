@@ -1,5 +1,7 @@
 
-import sys
+import pandas as pd
 
-print(sys.version)
-print(sys.executable)
+df = pd.read_csv (r'Data/Poverty and inequality measures from PovCal (2021).csv')
+
+df.head()
+
